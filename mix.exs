@@ -32,7 +32,7 @@ defmodule Mongo.Ecto.Mixfile do
       {:ecto, "~> 3.6"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:excoveralls, "~> 0.16", only: :test},
-      {:mongodb, "~> 1.0.0"},
+      {:mongodb, github: "derk153/mongodb", branch: "aws-scram-auth"},
       {:telemetry, ">= 0.4.0"}
     ]
   end
